@@ -1,0 +1,53 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1035725,
+    "appName": "HTTP",
+    "appType": "app",
+    "version": {
+      "code": 5,
+      "name": "1.4.9"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Send HTTP requests from your band"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "common": {
+      "module": {
+        "page": {
+          "pages": [
+            "pages/index"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "band-7",
+          "deviceSource": 254
+        }
+      ],
+      "designWidth": 198
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "HTTP"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
